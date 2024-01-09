@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Laurcons/place</title>
+		<link rel="stylesheet" href="fullscreen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<style type="text/css">
+		    
+		    @font-face {
+              font-family: Cambria;
+              src: url(cambria.ttf);
+            }
+		    
+		</style>
+	</head>
+
+	<table id="game-container">
+
+		<tr style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; transform: translate(0%, 0%); padding: 0px; margin: 0px; border: 0px; background: rgb(255, 255, 255);"><td style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; transform: translate(0%, 0%); padding: 0px; margin: 0px; border: 0px; background: rgb(255, 255, 255);">
+
+			<div id="canvas-div" style="width: 100%; height: 100%;">
+
+				<div id="canvas-pan-div">
+
+					<div id="canvas-zoom-div">
+
+						<canvas id="place-canvas" height="500px" width="500px">
+
+						</canvas>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</td></tr>
+		<tr style="height: fit-content; width: fit-content; position: absolute; top: 75%; left: 0; right: 0; transform: translate(0%, 0%); padding: 0px; margin: 0px; border: 0px; margin: auto;"><td style="text-align: center;">
+			<span id="timeout-span" style="font-family: Cambria; font-size: 2.5vw; background-color: rgb(2, 190, 1); cursor: default;"></span>
+		</td></tr>
+		<tr style="position: absolute; top: 85%; left: 0%; right: 0; transform: translate(0%, 0%); padding: 0px; margin: 0px; border: 0px; margin: auto;"><td>
+
+			<div id="color-buttons" style="display: inline-flex; height: fit-content; width: fit-content; position: absolute; left: 0; right: 0; transform: translate(0%, 0%); margin: 0px; border: 0px; margin: auto; text-align: center;">
+
+			</div>
+
+		</td></tr>
+
+	</table>
+
+	<script src="place.js"></script>
+</html>

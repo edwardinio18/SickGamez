@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+
+Options -Indexes
+
+ErrorDocument 400 /SickGamez/400
+ErrorDocument 401 /SickGamez/401
+ErrorDocument 403 /SickGamez/403
+ErrorDocument 404 /SickGamez/404
+ErrorDocument 500 /SickGamez/500
+ErrorDocument 502 /SickGamez/502
+ErrorDocument 504 /SickGamez/504

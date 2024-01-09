@@ -1,0 +1,16 @@
+{
+"companyName": "SickGamez",
+"productName": "XubeForMaintenance",
+"productVersion": "1.0",
+"dataUrl": "XubeForMaintenance.data.unityweb",
+"wasmCodeUrl": "XubeForMaintenance.wasm.code.unityweb",
+"wasmFrameworkUrl": "XubeForMaintenance.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1D1F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.10f1"
+}
